@@ -1,0 +1,27 @@
+{
+  "name": "some-bitches-bot",
+  "version": "1.0.0",
+  "description": "discord bot that is annoying",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normanlol/some-bitches-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "discordjs",
+    "bot"
+  ],
+  "author": "normanlol",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/normanlol/some-bitches-bot/issues"
+  },
+  "homepage": "https://github.com/normanlol/some-bitches-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
