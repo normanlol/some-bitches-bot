@@ -5,16 +5,15 @@ const config = JSON.parse(fs.readFileSync("config.json"));
 
 discord.on("ready", function() {
     discord.user.setActivity("some bitches", {type:"PLAYING"});
+    console.log("ready some bitches");
 });
 
 discord.on("message", function(message) {
     var content = message.content.split(" ");
     for (var c in content) {
-        message.author.send(content[c] + " some bitches").catch(function(err) {
-        console.log("error some bitches")
-    });
+        message.author.send(content[c] + " some bitches").catch(function() {});
     }
     return;
 });
 
-discord.login(config.token)
+discord.login(config.token);

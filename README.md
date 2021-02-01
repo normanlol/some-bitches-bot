@@ -4,8 +4,8 @@ Take someone's word and replace it with some bitches.
 ## configuration
 make a ``config.json`` file to match this.
 
-``json
+```json
 {
     "token": "[the bots token]"
 }
-``
+```
